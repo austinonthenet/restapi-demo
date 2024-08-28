@@ -143,7 +143,7 @@ public class PatientController extends BaseController {
 				patientCopy.setLastName(patientPatch.get("lastName").asText());
 			}
 			if (patientPatch.has("contactNumber")) {
-				patientCopy.setContactNumber(patientPatch.get("lastName").asText());
+				patientCopy.setContactNumber(patientPatch.get("contactNumber").asText());
 			}
 			if (patientPatch.has("allergies")) {
 				final JsonNode arrNode = patientPatch.get("allergies");

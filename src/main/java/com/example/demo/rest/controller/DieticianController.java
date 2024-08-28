@@ -139,7 +139,7 @@ public class DieticianController extends BaseController {
 				dieticianCopy.setLastName(dieticianPatch.get("lastName").asText());
 			}
 			if (dieticianPatch.has("contactNumber")) {
-				dieticianCopy.setContactNumber(dieticianPatch.get("lastName").asText());
+				dieticianCopy.setContactNumber(dieticianPatch.get("contactNumber").asText());
 			}
 			if (dieticianPatch.has("dateOfBirth")) {
 				dieticianCopy.setDateOfBirth(dieticianPatch.get("dateOfBirth").asText());
