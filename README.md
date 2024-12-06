@@ -2,7 +2,7 @@
 REST API Server Example
 
 ## Pre-Requisites
- - jdk21
+ - jdk17
  - mvn 3.8+
 
 ## Build
